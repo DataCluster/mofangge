@@ -12,3 +12,7 @@
 化学：http://www.mofangge.com/qlist/huaxue/595/ 从1到595
 
 生物：http://www.mofangge.com/qlist/shengwu/482/ 从1到482
+
+# Code copyright
+Published by MS-PL License. 
+By DGideas
