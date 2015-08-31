@@ -6,10 +6,12 @@ import os
 a=DG.DGStorage()
 a.select('knowledgebase');
 ok=False;
-i=0;
+i=199;
 while ok==False:
 	res=a.fetch(20,(i-1)*20);
 	i+=1;
+	if i==399:
+		ok=True;
 	if len(res)==0:
 		ok=True;
 	for item in res:
@@ -19,3 +21,4 @@ while ok==False:
 		os.remove('tmp');
 		print('put cont '+item["uid"]);
 		time.sleep(3);
+print('DONE==================================================');
